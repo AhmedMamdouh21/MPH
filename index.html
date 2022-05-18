@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>MPH</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-fixed fixed-top navbar-expand-lg py-lg-3">
+      <div class="px-4 d-flex align-items-center justify-content-between">
+        <a class="navbar-brand me-md-5" href="index.html">
+          <img class="img-fluid" src="assets/img/mph-logo.svg" alt="logo" />
+        </a>
+        <!-- <button class="navbar-toggler p-0">
+          <i class="bi bi-list icon-open"></i>
+          <i class="bi bi-x-lg icon-close"></i>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="works.html">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-toggle">
+          <div class="menu"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- End NavBar -->
+
+    <!-- Start Hero -->
+    <section class="hero">
+      <!-- Swiper -->
+      <div class="swiper hero-swiper h-100">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide overflow-hidden d-flex align-items-center">
+            <div class="swiper-video">
+              <video
+                class="hero-video img-fit"
+                autoplay="true"
+                loop="'true'"
+                src="assets/videos/video.mp4"
+                muted="'muted'"
+                playsinline
+                id="heroVideo"
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  id="hero-video"
+                  src="assets/videos/video.mp4"
+                  type="video/mp4"
+                  data-wf-ignore="true"
+                />
+              </video>
+            </div>
+            <div class="video-info px-5">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h2 class="section-title color-white font-title">
+                    How’s That Netflix Binge Looking Now? Joao Retorta Gets Back
+                    To It In His Spot For Sports Direct’s.
+                  </h2>
+                </div>
+                <div class="col-lg-3">
+                  <div
+                    class="btn-play media-videos d-flex justify-content-center align-items-center mx-auto"
+                    videosrc="https://www.youtube.com/watch?v=_q6zSq8erV0"
+                  >
+                    Play
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide overflow-hidden d-flex align-items-center">
+            <div class="swiper-video">
+              <video
+                class="hero-video img-fit"
+                autoplay="true"
+                loop="'true'"
+                src="assets/videos/video-1.mp4"
+                muted="'muted'"
+                playsinline
+                id="heroVideo"
+                data-wf-ignore="true"
+                data-object-fit="cover"
+              >
+                <source
+                  id="hero-video"
+                  src="assets/videos/video-1.mp4"
+                  type="video/mp4"
+                  data-wf-ignore="true"
+                />
+              </video>
+            </div>
+            <div class="video-info px-5">
+              <div class="row">
+                <div class="col-lg-8">
+                  <h2 class="section-title color-white font-title">
+                    How’s That Netflix Binge Looking Now? Joao Retorta Gets
+                  </h2>
+                </div>
+                <div class="col-lg-3">
+                  <div
+                    class="btn-play media-videos d-flex justify-content-center align-items-center mx-auto"
+                    videosrc="https://www.youtube.com/watch?v=XPi3ulp9myM"
+                  >
+                    Play
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex custom-controls align-items-center py-2 px-3">
+          <div class="swiper-button-prev me-3"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="another-videos row px-4">
+          <div class="col-lg-3 h-100 px-2 d-lg-block d-none">
+            <a
+              href="#"
+              target="_blank"
+              class="thumbnail-video d-flex align-items-end p-3 overlay"
+            >
+              <img
+                class="img-fit position-absolute cover"
+                src="assets/img/video-test.jpg"
+                alt="video"
+              />
+              <h3 class="small-title color-white mb-0">
+                The Gucci Aria Advertising Campaign
+              </h3>
+            </a>
+          </div>
+          <div class="col-lg-3 h-100 px-2 d-lg-block d-none">
+            <a
+              href="#"
+              target="_blank"
+              class="thumbnail-video d-flex align-items-end p-3 overlay"
+            >
+              <img
+                class="img-fit position-absolute cover"
+                src="assets/img/video-test.jpg"
+                alt="video"
+              />
+              <h3 class="small-title color-white mb-0">Banque Du Caire</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 h-100 px-2 d-lg-block d-none">
+            <a
+              href="#"
+              target="_blank"
+              class="thumbnail-video d-flex align-items-end p-3 overlay"
+            >
+              <img
+                class="img-fit position-absolute cover"
+                src="assets/img/video-test.jpg"
+                alt="video"
+              />
+              <h3 class="small-title color-white mb-0">Ya Me3afer</h3>
+            </a>
+          </div>
+          <div class="col-lg-3 col-9 h-100 px-2 see-more">
+            <a
+              href="#"
+              target="_blank"
+              class="thumbnail-video d-flex align-items-end p-3 overlay"
+            >
+              <img
+                class="img-fit position-absolute cover"
+                src="assets/img/video-test.jpg"
+                alt="video"
+              />
+              <div class="d-flex justify-content-between align-items-end">
+                <h3 class="medium-title color-yellow fw-bold mb-0 col-9">
+                  SEE MORE 132 VIDEOS
+                </h3>
+                <i
+                  class="bi bi-chevron-right icon-bold color-yellow medium-title"
+                ></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-end-side">
+        <div class="text-center change-lang px-2">
+          <a href="#" class="">Ar</a>
+          <span>-</span>
+          <a href="#" class="active">En</a>
+        </div>
+      </div>
+      <div
+        class="hero-scroll-down scroll-down scroll-animation-circle d-flex align-items-center justify-content-center"
+        data-scroll="about"
+      >
+        <div class="icon">
+          <svg
+            id="Layer_1"
+            fill="#fff"
+            data-name="Layer 1"
+            viewBox="0 0 800 800"
+          >
+            <polygon
+              class="cls-1"
+              points="444.9 479.2 411.2 507.8 411.2 264.4 388.8 264.4 388.8 507.8 355.1 479.2 339.3 497.7 400 549.2 460.7 497.7 444.9 479.2"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Video -->
+    <div
+      class="modal videoModal fade"
+      id="heroModal"
+      tabindex="-1"
+      aria-labelledby="heroModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header justify-content-end py-0">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              width="100%"
+              height="100%"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero -->
+
+    <!-- Start About -->
+    <section id="about" class="about bg-yellow py-section">
+      <div class="container-samll text-center">
+        <h2 class="section-title fw-black mb-4">
+          MEISAN IS AN AUDIOVISUAL PRODUCTION AGENCY SPECIALIZED IN THE CREATION
+          OF INSTITUTIONAL FILMS.
+        </h2>
+        <p>
+          Quos Iste Ratione Vitae Vero Rem Magni Cumque. In Exercitationem Qui
+          Odit Commodi Iste. Natus Velit Error Minima Incidunt Et Libero Enim.
+        </p>
+        <p>
+          Est Est Aut Tempore Quos Facilis Harum. Quis Praesentium Tempore
+          Reprehenderit Vel Odit Aperiam Et Tempora Unde. Nobis Error Provident.
+          Quod Fuga Dolores Aut Vel Asperiores Qui Expedita Sunt Consequatur.
+        </p>
+
+        <a href="#" class="btn_main white my-3"> Know More About Us </a>
+
+        <div class="about-img my-3 my-lg-5">
+          <img
+            class="img-fluid"
+            src="assets/img/about-img.png"
+            alt="about-img"
+          />
+        </div>
+
+        <div class="about-text-animation main-title fw-bold">
+          COMMERCIAL + CINEMA FORMAT + EVENTS + PRODUCTION
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Our Services -->
+    <section class="our-services bg-yellow py-section">
+      <div class="container-layout">
+        <h2 class="subtitle small-title mb-3">Our Services</h2>
+        <h3 class="section-title fw-black mb-4">WHAT WE OFFER</h3>
+        <div class="card-services row">
+          <div class="col-lg-5 mb-lg-0 mb-3">
+            <img
+              class="img-fluid"
+              src="assets/img/about-img.png"
+              alt="services-img"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h2 class="card_title text-stroke fw-black">MEDIA PRODUCTION</h2>
+            <p>
+              Dicta Dolorem Nihil Error. Eum In Quo Autem Amet Ullam Odit
+              Temporibus Est. Autem Vero Dolor Ratione Non Esse Et Porro Omnis.
+              Delectus Rem Omnis Adipisci Facilis. Sed Ex Voluptas Alias.
+              Recusandae Quod Aut Omnis.
+            </p>
+
+            <div class="tags row">
+              <span class="col-auto my-1">Commercial</span>
+              <span class="col-auto my-1">Post-Production</span>
+              <span class="col-auto my-1">Corporate Videos</span>
+              <span class="col-auto my-1">Production</span>
+              <span class="col-auto my-1">Cinema Format</span>
+              <span class="col-auto my-1">Promotion</span>
+            </div>
+
+            <a href="#" class="btn-text-underline mt-3 d-inline-block">
+              Know More
+            </a>
+          </div>
+        </div>
+
+        <div class="card-services row">
+          <div class="col-lg-5 mb-lg-0 mb-3">
+            <img
+              class="img-fluid"
+              src="assets/img/about-img.png"
+              alt="services-img"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h2 class="card_title text-stroke fw-black">CREW AND EQUIPMENT</h2>
+            <p>
+              Dicta Dolorem Nihil Error. Eum In Quo Autem Amet Ullam Odit
+              Temporibus Est. Autem Vero Dolor Ratione Non Esse Et Porro Omnis.
+              Delectus Rem Omnis Adipisci Facilis. Sed Ex Voluptas Alias.
+              Recusandae Quod Aut Omnis.
+            </p>
+
+            <div class="tags row">
+              <span class="col-auto my-1">Commercial</span>
+              <span class="col-auto my-1">Post-Production</span>
+              <span class="col-auto my-1">Corporate Videos</span>
+              <span class="col-auto my-1">Production</span>
+              <span class="col-auto my-1">Cinema Format</span>
+              <span class="col-auto my-1">Promotion</span>
+            </div>
+
+            <a href="#" class="btn-text-underline mt-3 d-inline-block">
+              Know More
+            </a>
+          </div>
+        </div>
+
+        <div class="card-services row">
+          <div class="col-lg-5 mb-lg-0 mb-3">
+            <img
+              class="img-fluid"
+              src="assets/img/about-img.png"
+              alt="services-img"
+            />
+          </div>
+          <div class="col-lg-7">
+            <h2 class="card_title text-stroke fw-black">
+              EVENTS AND PHOTOGRAPHY
+            </h2>
+            <p>
+              Dicta Dolorem Nihil Error. Eum In Quo Autem Amet Ullam Odit
+              Temporibus Est. Autem Vero Dolor Ratione Non Esse Et Porro Omnis.
+              Delectus Rem Omnis Adipisci Facilis. Sed Ex Voluptas Alias.
+              Recusandae Quod Aut Omnis.
+            </p>
+
+            <div class="tags row">
+              <span class="col-auto my-1">Commercial</span>
+              <span class="col-auto my-1">Post-Production</span>
+              <span class="col-auto my-1">Corporate Videos</span>
+              <span class="col-auto my-1">Production</span>
+              <span class="col-auto my-1">Cinema Format</span>
+              <span class="col-auto my-1">Promotion</span>
+            </div>
+
+            <a href="#" class="btn-text-underline mt-3 d-inline-block">
+              Know More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Services -->
+
+    <!-- Start Contact Us -->
+    <section class="contact-us bg-yellow py-section pt-0">
+      <div class="container-samll text-center">
+        <h2 class="main-title fw-black">
+          LET'S CREATE SOMETHING COOL TOGETHER
+        </h2>
+
+        <a href="#" class="btn_main black px-lg-5 mt-4">Contact Us</a>
+      </div>
+    </section>
+    <!-- End Contact Us -->
+
+    <!-- Start Social Media Fixed -->
+
+    <ul class="social-media-fixed list-unstyled">
+      <li class="my-2">
+        <a class="icon" href="http://" target="_blank">
+          <img
+            class="img-fluid"
+            src="./assets/img/facebook.svg"
+            alt="facebook"
+          />
+        </a>
+      </li>
+      <li class="my-2">
+        <a class="icon" href="http://" target="_blank">
+          <img
+            class="img-fluid"
+            src="./assets/img/instagram.svg"
+            alt="instagram"
+          />
+        </a>
+      </li>
+      <li class="my-2">
+        <a class="icon" href="http://" target="_blank">
+          <img class="img-fluid" src="./assets/img/youtube.svg" alt="youtube" />
+        </a>
+      </li>
+      <li class="my-2">
+        <a class="icon" href="http://" target="_blank">
+          <img class="img-fluid" src="./assets/img/linked.svg" alt="linked" />
+        </a>
+      </li>
+      <li class="my-2">
+        <a class="icon" href="http://" target="_blank">
+          <img
+            class="img-fluid"
+            src="./assets/img/whatsapp.svg"
+            alt="whatsapp"
+          />
+        </a>
+      </li>
+    </ul>
+
+    <!-- End Social Media Fixed -->
+
+    <!-- Start Footer -->
+    <footer class="footer pt-lg-5 pt-4 px-4">
+      <!-- <div class="container-layout"> -->
+      <div class="row pb-3">
+        <div class="col-lg-3 d-flex flex-column">
+          <a
+            class="logo-brand d-inline-flex justify-content-lg-start justify-content-center mb-4"
+            href="index.html"
+          >
+            <img class="img-fluid" src="assets/img/mph-logo.svg" alt="logo" />
+          </a>
+          <p class="small-description text-lg-start text-center">
+            Quos Iste Ratione Vitae Vero Rem Magni Cumque. In Exercitationem Qui
+            Odit Commodi Iste. Natus Velit Error Minima Incidunt Et Libero Enim.
+          </p>
+        </div>
+        <div class="col-lg">
+          <div class="row px-lg-5">
+            <div class="col-lg">
+              <h3
+                class="font-title small-title color-yellow mb-4 text-lg-start text-center"
+              >
+                Company
+              </h3>
+              <ul class="list list-unstyled text-lg-start text-center">
+                <li class="item">
+                  <a class="link" href="#">About Us</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Careersr</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg">
+              <h3
+                class="font-title small-title color-yellow mb-4 text-lg-start text-center"
+              >
+                Works
+              </h3>
+            </div>
+            <div class="col-lg">
+              <h3
+                class="font-title small-title color-yellow mb-4 text-lg-start text-center"
+              >
+                Services
+              </h3>
+              <ul class="list list-unstyled text-lg-start text-center">
+                <li class="item">
+                  <a class="link" href="#">Media Production</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Crew And Equipment</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Media Production</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Commercial</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Production</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Post-Production</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Cinema Format</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Cinema Format</a>
+                </li>
+                <li class="item">
+                  <a class="link" href="#">Promotion</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg">
+              <h3
+                class="font-title small-title color-yellow mb-4 text-lg-start text-center"
+              >
+                Contact Us
+              </h3>
+            </div>
+            <div class="col-lg text-lg-start text-center">
+              <h3 class="font-title small-title color-yellow mb-4">
+                Contact Info
+              </h3>
+              <div class="address mb-3">
+                <h6 class="color-yellow fw-bold mb-1">Address:</h6>
+                <a
+                  class="small-description"
+                  target="_blank"
+                  href="https://www.google.com/maps"
+                  >New Zealand North Aylinstad 0165 Oberbrunner Canyon Frankie
+                  Viaduct</a
+                >
+              </div>
+              <div class="email-address mb-3">
+                <h6 class="color-yellow fw-bold mb-1">Email Address:</h6>
+                <a
+                  class="small-description"
+                  target="_blank"
+                  href="mailto:Dimitri.Cremin@Yahoo.Com"
+                  >Dimitri.Cremin@Yahoo.Com</a
+                >
+              </div>
+              <div class="mobile-number mb-3">
+                <h6 class="color-yellow fw-bold mb-1">Mobile Number:</h6>
+                <a
+                  class="small-description"
+                  target="_blank"
+                  href="tel:+964-252-7482"
+                  >+964-252-7482</a
+                >
+              </div>
+              <ul
+                class="social-media list-unstyled d-flex align-items-center justify-content-lg-start justify-content-center mb-lg-0 mb-4"
+              >
+                <li class="me-3">
+                  <a class="icon" href="http://" target="_blank">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/facebook.svg"
+                      alt="facebook"
+                    />
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="icon" href="http://" target="_blank">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/instagram.svg"
+                      alt="instagram"
+                    />
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="icon" href="http://" target="_blank">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/youtube.svg"
+                      alt="youtube"
+                    />
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="icon" href="http://" target="_blank">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/linked.svg"
+                      alt="linked"
+                    />
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="icon" href="http://" target="_blank">
+                    <img
+                      class="img-fluid"
+                      src="./assets/img/whatsapp.svg"
+                      alt="whatsapp"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footr-bottom py-3 d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <div class="copyright small-description">
+          © Copyrights Meisan Production House 2022
+        </div>
+        <div class="links">
+          <a href="#" target="_blank" class="small-description color-white"
+            >Privacy Policy</a
+          >
+        </div>
+      </div>
+      <!-- </div> -->
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
